@@ -1,34 +1,14 @@
-# world-store-it
+# Micro-frontend-app
+## 📌 Mô tả
+Dự án sử dụng kiến trúc **Micro-Frontend**, gồm **5 micro-apps**, mỗi app tương ứng với một view.
 
-## Các task
+## 🚀 Cách chạy project
+- **Chạy Container App**: `npm run start`
+- **Chạy các Micro-Apps**: `npm run serve`
 
-### 1. Lifecycle hooks
-
-- beforeCreate()
-- created()
-- beforeMount()
-- mounted()
-- beforeUpdate()
-- updated()
-- beforeUnmount()
-- unmounted()
-- Demo các hàm trên tại LifeCycleView, tại url: localhost:5173/lifecycle
-
-#### 1.1 Demo beforeCreate(), created(), beforeMount() và mounted()
-
-![img.png](img.png)
-
-#### 1.2 Demo beforeUpdate(), updated()
-
-![img_1.png](img_1.png)
-
-#### 1.3 Demo beforeUnmount(), unmounted()
-
-![img_2.png](img_2.png)
-
-## 2. CRUD
-
-- Create: chức năng signup, create product
-- Read: danh sách sản phẩm
-- Update: Cập nhật user_info, update product
-- Delete: Xóa sản phẩm
+## 🖥️ Giao diện ứng dụng
+**1️⃣ Home** ![Home](img.png)  
+**2️⃣ About** ![About](img_1.png)  
+**3️⃣ Contact Us** ![Contact Us](img_2.png)  
+**4️⃣ Login** ![Login](img_3.png)  
+**5️⃣ Signup** ![Signup](img_4.png)
